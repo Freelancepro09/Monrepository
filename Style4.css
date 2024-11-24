@@ -1,0 +1,94 @@
+
+body {
+    font-family: Times New Roman, serif;
+    background-color: #ffffff;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.banner h1 {
+    margin-bottom: 10px; /* Ajuste la valeur pour plus ou moins d'espace */
+    color: #f6f5ed ;
+}
+
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+nav a {
+    color: #f6f5ed ;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main theme section */
+.themes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.theme-card {
+    background-color: #FFFFF5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.theme-card i {
+    font-size: 50px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.theme-card h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.theme-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #003366;
+}
+
+/* Hover effect */
+.theme-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    background-color: #112c44;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: #f4f4f4;
+    margin: 0;
+}

@@ -1,0 +1,255 @@
+body {
+    font-family: Times New Roman, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+
+nav a {
+    color: #f6f5ed ;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+main {
+   max-width: 1300px;
+    margin: 0px; /* Centre la section */
+    padding: 0px; /* Espacement intérieur */
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.65); /* Fond blanc semi-transparent */
+    background-image: url('./media/EcoleAthenes1.png'); /* Image d'arrière-plan */
+    background-size: cover; /* Ajuste l'image pour couvrir toute la section */
+
+    width: 100%; /* Occupe toute la largeur */
+    height: 100%;
+    min-height: calc(100vh - 120px); /* Ajuste la hauteur minimale */
+    box-sizing: border-box;
+}
+
+
+h2, h3, h4 {
+    color: #003366;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+
+h4 {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+a {
+color:#003366
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+
+.featured-image-small {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+
+.featured-image-small:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+
+    nav a {
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+
+    main {
+        padding: 0 10px;
+    }
+
+
+    .featured-image-small {
+        width: 500px;
+    }
+}
+
+
+
+
+#sources {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #003366;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#sources h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.caption {
+    font-size: 10px; 
+    color: #666; /
+    text-align: center; 
+    margin-top: 5px; 
+}
+
+
+#sources ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#sources li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+#sources li:hover {
+    background-color: #fafafa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+#sources li a {
+    color: #0066cc;
+    font-size: 1.1em;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+
+#sources li a:hover {
+    color: #00509e;
+    text-decoration: underline;
+}
+
+
+
+
+#sources img {
+    width: 80px; 
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.featured-logo {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+#sources li p {
+    font-size: 1.2em;  
+    text-align: center; 
+    color: #1A1A1A; 
+    font-family: 'Georgia', serif;  
+    margin-top: 10px; 
+}
+
